@@ -4,7 +4,13 @@ author: "Lara Al Selim"
 date: "`r format(Sys.Date())`"
 output: github_document
 ---
+## Session Info
 
+Here is my session information:
+
+```{r}
+sessioninfo::session_info("sessioninfo::session_info")
+```
 ## Instructions
 
 Replace any triple underscores "___" with the appropriate text.
