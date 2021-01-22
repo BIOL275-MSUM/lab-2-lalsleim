@@ -3,35 +3,6 @@ Lab 2 Assignment
 Lara Al Selim
 2021-01-21
 
-## Session Info
-
-Here is my session information:
-
-``` r
-sessioninfo::session_info("sessioninfo::session_info")
-```
-
-    ## - Session info ---------------------------------------------------------------
-    ##  setting  value                       
-    ##  version  R version 4.0.3 (2020-10-10)
-    ##  os       Windows 10 x64              
-    ##  system   x86_64, mingw32             
-    ##  ui       RTerm                       
-    ##  language (EN)                        
-    ##  collate  English_United States.1252  
-    ##  ctype    English_United States.1252  
-    ##  tz       America/Chicago             
-    ##  date     2021-01-21                  
-    ## 
-    ## - Packages -------------------------------------------------------------------
-    ##  ! package                   * version date lib source
-    ##  R sessioninfo::session_info   <NA>    <NA> [?] <NA>  
-    ## 
-    ## [1] C:/Users/laras/Documents/R/win-library/4.0
-    ## [2] C:/Windows/R-4.0.3/library
-    ## 
-    ##  R -- Package was removed from disk.
-
 ## Instructions
 
 Replace any triple underscores "\_\_\_" with the appropriate text.
@@ -179,4 +150,32 @@ ggplot(chick_data, aes(x = diet, y = weight, color = diet, fill = diet)) +
   )
 ```
 
-![](assignment_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](assignment_files/figure-gfm/unnamed-chunk-1-1.png)<!-- --> \#\#
+Session Info
+
+Here is my session information:
+
+``` r
+sessioninfo::session_info("sessioninfo::session_info")
+```
+
+    ## - Session info ---------------------------------------------------------------
+    ##  setting  value                       
+    ##  version  R version 4.0.3 (2020-10-10)
+    ##  os       Windows 10 x64              
+    ##  system   x86_64, mingw32             
+    ##  ui       RTerm                       
+    ##  language (EN)                        
+    ##  collate  English_United States.1252  
+    ##  ctype    English_United States.1252  
+    ##  tz       America/Chicago             
+    ##  date     2021-01-21                  
+    ## 
+    ## - Packages -------------------------------------------------------------------
+    ##  ! package                   * version date lib source
+    ##  R sessioninfo::session_info   <NA>    <NA> [?] <NA>  
+    ## 
+    ## [1] C:/Users/laras/Documents/R/win-library/4.0
+    ## [2] C:/Windows/R-4.0.3/library
+    ## 
+    ##  R -- Package was removed from disk.
